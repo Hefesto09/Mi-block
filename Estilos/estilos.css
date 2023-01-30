@@ -1,0 +1,59 @@
+html {
+    font-family: 'Montaga', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #bdbdbd;
+}
+
+header h1{ 
+    background-color: rgb(86, 156, 214);
+    color: azure;
+    padding: 3rem;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.contenedor {
+    width: 300px;
+    margin: auto;
+}
+
+section article {
+    transition: all 0.4s ease;
+    background-color: rgb(154, 198, 223);
+    margin: 1rem 0;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 1rem rgba(137, 51, 177, 0.8);
+}
+
+section article h2, section article p {
+    margin: 1rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #2c2e2e;
+    padding: 3rem;
+    color: rgb(221, 230, 230);
+}
+
+footer a {
+    transition: color 2s ease;
+    float: right;
+    text-decoration: none;
+    color: rgb(221, 230, 230);
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
